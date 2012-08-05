@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=QuakeLive
+Comment=Prism
+Type=Application
+Exec=qlprism
+Icon=qlprism.png
+Categories=Application;Game;
