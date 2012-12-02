@@ -1,0 +1,29 @@
+# Maintainer: stealthy <stealth@aft3rburn.info>
+# Contributor: OS Hazard <oshazard+aur@gmail.com>
+
+pkgname=mate-calc
+pkgver=1.5.1
+pkgrel=1
+pkgdesc="Calculator for the Mate desktop environment"
+arch=('i686' 'x86_64')
+url="https://github.com/mate-desktop/mate-calc"
+license=('LGPL' 'GPL')
+groups=('mate-extra')
+depends=('gtk2' 'libxml2' 'libpng' 'freetype2' 'flex' 'bison' 'pixman' 'glib2' 'pango' 'gdk-pixbuf2' 'cairo' 'atk')
+makedepends=('mate-common')
+provides=('mate-calc')
+conflicts=('matecalc-git')
+source=('https://aur-includes.googlecode.com/git/matecalc-git/mate-calc-1.5.1.tar.gz')
+md5sums=('ccfa99ae997ae0c1c0b845db36959680')
+install=mate-calc.install
+
+build() {
+  cd "$srcdir/mate-calc"
+  ./autogen.sh --prefix="/usr"
+}
+
+package() {
+  cd "$srcdir/mate-calc"
+  make DESTDIR="$pkgdir/" install
+}
+
