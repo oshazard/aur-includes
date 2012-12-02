@@ -13,7 +13,7 @@ depends=('gtk2' 'libxml2' 'libpng' 'freetype2' 'flex' 'bison' 'pixman' 'glib2' '
 makedepends=('mate-common')
 provides=('mate-calc')
 conflicts=('matecalc-git')
-source=('https://aur-includes.googlecode.com/git/matecalc-git/mate-calc-1.5.1.tar.gz')
+source=('https://aur-includes.googlecode.com/git/matecalc/mate-calc-1.5.1.tar.gz')
 md5sums=('ccfa99ae997ae0c1c0b845db36959680')
 install=mate-calc.install
 
