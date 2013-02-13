@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Sandforce Updater
+Exec=sandforce-updater
+Icon=mushkin_drive
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=QT;Utility;System;
