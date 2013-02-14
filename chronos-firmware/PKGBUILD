@@ -14,7 +14,7 @@ install=$pkgname.install
 source=(http://www.mushkin.com/App_Themes/Firmware/Mushkin_Chronos_Chronos_Deluxe_${_srcver}_FW_Update.zip 
 	http://aur-includes.googlecode.com/git/chronos-firmware/includes.tar.gz)
 md5sums=('b6d22c2343678741344288e9724751a0'
-	 'e782c191ef681d015eb8a43f5f66f87a')
+	 '3a8f37a7e2b2e882982b74884eacaa66')
 
 package() {
   cd "$srcdir/Mushkin_Chronos_Chronos_Deluxe_${_srcver}_FW_Update"
