@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Chronos Firmware
+Exec=xdg-open /usr/share/chronos-firmware
+Icon=mushkin_file
+Terminal=false
+Type=Application
+StartupNotify=true
+Categories=Utility;System;
