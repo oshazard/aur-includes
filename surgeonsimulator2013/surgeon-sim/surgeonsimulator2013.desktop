@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Surgeon Simulator 2013
+Comment=Poor Bob fell off his toilet, resulting in urgent need for a heart transplant.
+Type=Application
+Exec=surgeonsimulator2013
+Icon=surgeonsimulator2013.png
+Categories=Application;Game;
