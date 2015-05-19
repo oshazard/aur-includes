@@ -1,0 +1,1 @@
+Various files for AUR packages: icons, desktop files, etc.
